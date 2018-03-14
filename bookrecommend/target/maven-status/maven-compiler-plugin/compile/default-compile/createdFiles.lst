@@ -1,0 +1,3 @@
+com/book/recommend/model/UserRecommend.class
+com/book/recommend/service/DataService.class
+com/book/recommend/model/MyRecommenderBuilder.class
