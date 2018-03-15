@@ -28,14 +28,18 @@ public class HdfsDao {
     private Configuration conf;
 
 
+
+
+
     public static JobConf config(){
-       JobConf jobConf = new JobConf(HdfsDao.class);
+        JobConf jobConf = new JobConf();
         jobConf.setJobName("HdfsDAO");
         jobConf.addResource("classpath:/hadoop/core-site.xml");
         jobConf.addResource("classpath:/hadoop/hdfs-site.xml");
         jobConf.addResource("classpath:/hadoop/mapred-site.xml");
         return jobConf;
     }
+
 
     public static void main(String [] args){
         JobConf jobConf= HdfsDao.config();
@@ -46,7 +50,6 @@ public class HdfsDao {
             fs = FileSystem.get(URI.create(hdfsDao.hdfsPath), jobConf);
 
         FileStatus[] list = fs.listStatus(path);
-
         for (FileStatus f : list) {
             System.out.printf("name: %s, folder: %s, size: %d\n", f.getPath(), f.isDir(), f.getLen());
         }

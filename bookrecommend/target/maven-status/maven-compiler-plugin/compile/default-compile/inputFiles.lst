@@ -1,3 +1,8 @@
+/home/newcapec/workspace/bookrecommend/src/main/java/hadoop/RUN_MODE.java
+/home/newcapec/workspace/bookrecommend/src/main/java/hadoop/KMeans.java
+/home/newcapec/workspace/bookrecommend/src/main/java/hadoop/HdfsDao.java
+/home/newcapec/workspace/bookrecommend/src/main/java/hadoop/util/HadoopUtil.java
 /home/newcapec/workspace/bookrecommend/src/main/java/com/book/recommend/service/DataService.java
 /home/newcapec/workspace/bookrecommend/src/main/java/com/book/recommend/model/UserRecommend.java
+/home/newcapec/workspace/bookrecommend/src/main/java/hadoop/KMeansCluster.java
 /home/newcapec/workspace/bookrecommend/src/main/java/com/book/recommend/model/MyRecommenderBuilder.java

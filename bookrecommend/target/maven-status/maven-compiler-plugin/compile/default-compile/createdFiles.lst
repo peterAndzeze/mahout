@@ -1,3 +1,8 @@
-com/book/recommend/model/UserRecommend.class
-com/book/recommend/service/DataService.class
+hadoop/KMeansCluster.class
+hadoop/HdfsDao.class
+hadoop/RUN_MODE.class
+hadoop/util/HadoopUtil.class
 com/book/recommend/model/MyRecommenderBuilder.class
+hadoop/KMeans.class
+com/book/recommend/service/DataService.class
+com/book/recommend/model/UserRecommend.class

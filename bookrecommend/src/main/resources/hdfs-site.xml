@@ -4,7 +4,7 @@
 <configuration>
   <property>
     <name>dfs.data.dir</name>
-    <value>/user/newcapec/sw</value>
+    <value>/user/newcapec/</value>
   </property>
   <property>
     <name>dfs.replication</name>
